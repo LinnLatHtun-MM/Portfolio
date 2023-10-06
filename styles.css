@@ -1,0 +1,153 @@
+:root {
+  --clr-red: #c41925;
+  --clr-red-hover: red;
+  --clr-darkred: darkred;
+  --clr-bg: #1e1e1e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main .custom-navbar {
+  background-color: var(--clr-bg) !important;
+}
+.main .how-section1 {
+  background-color: var(--clr-bg);
+  margin-top: -15%;
+  padding: 10%;
+}
+.main .how-section1 h4 {
+  color: var(--clr-red);
+  font-weight: bold;
+  font-size: 13px;
+}
+.main .how-section1 h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main .how-section1 .subheading {
+  color: var(--clr-bg);
+  font-size: 20px;
+}
+.main .how-section1 .row {
+  margin-top: 10%;
+}
+.main .how-section1 .how-img {
+  text-align: center;
+}
+.main .how-section1 .how-img .person_img {
+  width: 40%;
+}
+.main .how-section1 button {
+  background-color: var(--clr-red);
+}
+.main .how-section1 button:hover {
+  background-color: var(--clr-red-hover);
+}
+.main .half-color {
+  background: linear-gradient(to right, #3b3b3b 50%, var(--clr-bg) 50%);
+}
+.main .three-card {
+  background: linear-gradient(to right, #3b3b3b 50%, var(--clr-bg) 50%);
+}
+.main .three-card .test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .three-card .test .three-cards .project .img-h {
+  width: 20%;
+  height: 20%;
+}
+.main .three-card .test .three-cards .card1:hover {
+  box-shadow: 0 0 50px var(--clr-darkred);
+  background-color: var(--clr-darkred) !important;
+}
+.main .three-card .test .three-cards .card2:hover {
+  box-shadow: 0 0 50px var(--clr-bg);
+  background-color: var(--clr-bg) !important;
+}
+.main .three-card .test .three-cards .card3:hover {
+  box-shadow: 0 0 50px var(--clr-darkred);
+  background-color: var(--clr-darkred) !important;
+}
+.main .project2 {
+  background-color: black;
+  color: var(--clr-red);
+}
+.main .six-cards {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--clr-bg);
+}
+.main .six-cards .card-inner {
+  padding: 10px;
+}
+.main .six-cards .header {
+  margin-bottom: 5px;
+}
+.main .six-cards .header h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: var(--clr-red);
+}
+.main .six-cards:hover {
+  background-color: var(--clr-darkred);
+}
+.main .content-btn {
+  background-color: #181818 !important;
+}
+.main .content-btn button {
+  background-color: var(--clr-red);
+}
+.main .content-btn button:hover {
+  background-color: var(--clr-red-hover);
+}
+@media (max-width: 768px) {
+  .main .content-btn .test {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+  }
+}
+.main .four-cards {
+  background-color: #181818;
+}
+.main .four-cards .card-center {
+  background-color: var(--clr-bg);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .four-cards .colour {
+  background-color: var(--clr-bg) !important;
+}
+.main .four-cards .colour:hover {
+  box-shadow: 0 0 80px rgb(83, 3, 3);
+}
+.main .together button {
+  background-color: var(--clr-red);
+}
+.main .together button:hover {
+  background-color: var(--clr-red-hover);
+}
+
+@media (max-width: 768px) {
+  .main .how-section1 button {
+    background-color: var(--clr-red);
+    margin-left: 88px;
+  }
+}
+@media (min-width: 992px) {
+  .main .together button {
+    margin-left: 500px;
+  }
+}/*# sourceMappingURL=styles.css.map */
