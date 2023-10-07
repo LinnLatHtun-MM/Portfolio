@@ -51,27 +51,26 @@
 .main .half-color {
   background: linear-gradient(to right, #3b3b3b 50%, var(--clr-bg) 50%);
 }
-.main .three-card {
+.main .cards {
+  width: 75%;
+}
+.main .cards .three-card {
   background: linear-gradient(to right, #3b3b3b 50%, var(--clr-bg) 50%);
 }
-.main .three-card .test {
+.main .cards .three-card .test {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main .three-card .test .three-cards .project .img-h {
+.main .cards .three-card .test .three-cards .project .img-h {
   width: 20%;
   height: 20%;
 }
-.main .three-card .test .three-cards .card1:hover {
+.main .cards .three-card .test .three-cards .card1:hover {
   box-shadow: 0 0 50px var(--clr-darkred);
   background-color: var(--clr-darkred) !important;
 }
-.main .three-card .test .three-cards .card2:hover {
-  box-shadow: 0 0 50px var(--clr-bg);
-  background-color: var(--clr-bg) !important;
-}
-.main .three-card .test .three-cards .card3:hover {
+.main .cards .three-card .test .three-cards .card3:hover {
   box-shadow: 0 0 50px var(--clr-darkred);
   background-color: var(--clr-darkred) !important;
 }
@@ -101,42 +100,43 @@
 .main .six-cards:hover {
   background-color: var(--clr-darkred);
 }
-.main .content-btn {
+.main .feature-projects {
+  width: 75%;
   background-color: #181818 !important;
 }
-.main .content-btn button {
+.main .feature-projects button {
   background-color: var(--clr-red);
 }
-.main .content-btn button:hover {
+.main .feature-projects button:hover {
   background-color: var(--clr-red-hover);
 }
-@media (max-width: 768px) {
-  .main .content-btn .test {
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-  }
+.main .feat-four-pjs {
+  width: 75%;
 }
-.main .four-cards {
+.main .feat-four-pjs .four-cards {
   background-color: #181818;
 }
-.main .four-cards .card-center {
+.main .feat-four-pjs .four-cards .card-center {
   background-color: var(--clr-bg);
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main .four-cards .colour {
+.main .feat-four-pjs .four-cards .colour {
   background-color: var(--clr-bg) !important;
 }
-.main .four-cards .colour:hover {
+.main .feat-four-pjs .four-cards .colour:hover {
   box-shadow: 0 0 80px rgb(83, 3, 3);
 }
-.main .together button {
-  background-color: var(--clr-red);
+.main .together-width {
+  width: 75%;
 }
-.main .together button:hover {
+.main .together-width .together button {
+  background-color: var(--clr-red);
+  margin-left: 350px;
+}
+.main .together-width .together button:hover {
   background-color: var(--clr-red-hover);
 }
 
@@ -145,9 +145,26 @@
     background-color: var(--clr-red);
     margin-left: 88px;
   }
+  .main .cards {
+    width: 85%;
+  }
+  .main .feature-projects .btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .feat-four-pjs {
+    width: 100%;
+  }
+  .main .together-width .together {
+    width: 100%;
+  }
+  .main .together-width .together button {
+    margin: auto;
+  }
 }
 @media (min-width: 992px) {
-  .main .together button {
-    margin-left: 500px;
+  .main .together-width .together button {
+    margin-left: auto;
   }
 }/*# sourceMappingURL=styles.css.map */
