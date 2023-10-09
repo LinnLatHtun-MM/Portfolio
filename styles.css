@@ -66,14 +66,6 @@
   width: 20%;
   height: 20%;
 }
-.main .cards .three-card .test .three-cards .card1:hover {
-  box-shadow: 0 0 50px var(--clr-darkred);
-  background-color: var(--clr-darkred) !important;
-}
-.main .cards .three-card .test .three-cards .card3:hover {
-  box-shadow: 0 0 50px var(--clr-darkred);
-  background-color: var(--clr-darkred) !important;
-}
 .main .project2 {
   background-color: black;
   color: var(--clr-red);
@@ -98,7 +90,10 @@
   color: var(--clr-red);
 }
 .main .six-cards:hover {
-  background-color: var(--clr-darkred);
+  background-color: var(--clr-red);
+}
+.main .six-cards:hover .header h2 {
+  color: white;
 }
 .main .feature-projects {
   width: 75%;

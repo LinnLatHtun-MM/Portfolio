@@ -67,18 +67,18 @@
               height: 20%;
             }
           }
-          .card1:hover {
-            box-shadow: 0 0 50px var(--clr-darkred);
-            background-color: var(--clr-darkred) !important;
-          }
+          // .card1:hover {
+          //   box-shadow: 0 0 50px var(--clr-darkred);
+          //   background-color: var(--clr-darkred) !important;
+          // }
           .card2:hover {
             // box-shadow: 0 0 50px var(--clr-darkred);
             // background-color: var(--clr-darkred) !important;
           }
-          .card3:hover {
-            box-shadow: 0 0 50px var(--clr-darkred);
-            background-color: var(--clr-darkred) !important;
-          }
+          // .card3:hover {
+          //   box-shadow: 0 0 50px var(--clr-darkred);
+          //   background-color: var(--clr-darkred) !important;
+          // }
         }
       }
     }
@@ -109,7 +109,12 @@
     }
   }
   .six-cards:hover {
-    background-color: var(--clr-darkred);
+    background-color: var(--clr-red);
+    .header {
+      h2 {
+        color: white;
+      }
+    }
   }
 
   .feature-projects {
